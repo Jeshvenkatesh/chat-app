@@ -1,0 +1,124 @@
+.mainWrapper{
+    width:70%;
+    height:100%;
+    /* background-color: lightseagreen; */
+    background-image: url("https://i.pinimg.com/originals/85/11/37/851137905cb25841681455933eb23741.png");
+
+}
+.mainWrapper h1{
+margin:0px;
+}
+.TextArea{
+    width:100%;
+    height:400px;
+    /* overflow: scroll; */
+    display: flex;
+    align-items:flex-end;
+    /* position: relative; */
+    /* display: flex;
+    flex-direction:column; */
+    /* background-color: lightgreen; */
+}
+.crossMark{
+    color:black;
+    cursor: pointer;
+    float: right;
+}
+.subTextArea{
+    width:100%;
+    height:fit-content;
+    max-height: 400px;
+    overflow: auto;
+}
+.InputTextField{
+    width:98%;
+    height:fit-content;
+    border-radius: 50px;
+    border:2px solid lightgray;
+    background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+    padding:8px 0px;
+}
+.InputTextField form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.InputTextField input{
+    width:80%;
+    padding:4px;
+    font-size:18px;
+    border:none;
+    outline: none;
+}
+.textMessage{
+    width:65%;
+    max-width:500px;
+    height:fit-content;
+    background-color: #007aff;
+    padding:4px 8px;
+    /* border-radius: 25px; */
+    border-radius: 4px;
+    color:white;
+    margin:4px;
+    float:right;
+    line-break: strict;
+    /* position: relative;
+    bottom:0;
+    right:0; */
+}
+.textMessage p{
+    margin:0px;
+}
+@media(max-width:600px){
+    .mainWrapper{
+        width:55%;
+    }
+    .textMessage{
+        width:70%;
+    }
+   .InputTextField input{
+    width:65%;
+    padding:4px 0px;
+    font-size:12px;  
+}
+.TextArea{
+    height:410px;
+}
+
+
+}
+@media(min-width:600px) and (max-width:768px){
+    .mainWrapper{
+        width:55%;
+    }
+    .textMessage{
+        width:70%;
+    }
+   .InputTextField input{
+    width:65%;
+    padding:4px 0px;
+    font-size:12px;  
+}
+.TextArea{
+    height:410px;
+}
+
+}
+@media(min-width:768px) and (max-width:992px){
+    .mainWrapper{
+        width:55%;
+    }
+    .textMessage{
+        width:70%;
+    }
+   .InputTextField input{
+    width:65%;
+    padding:4px 0px;
+    font-size:16px;  
+}
+.TextArea{
+    height:410px;
+}
+}
